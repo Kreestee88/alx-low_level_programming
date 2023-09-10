@@ -5,22 +5,22 @@
  */
 int main(void)
 {
-	char c;
+	char m;
 
-	int d;
+	int n;
 
-	c = 'a';
-	d = 0;
+	m = 'a';
+	n = 0;
 	while
-		(d < 10) {
-			putchar(d + '0');
-					d++;
-					}
-					while
-					(c <= 'f') {
-					putchar(c);
-					c++;
-					}
-					putchar('\n');
-					return (0);
+		(n < 10) {
+			putchar(n + '0');
+			n++;
+		}
+	while
+		(m <= 'f') {
+			putchar(m);
+			m++;
+		}
+	putchar('\n');
+	return (0);
 }
